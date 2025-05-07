@@ -1,0 +1,105 @@
+/* styles.css */
+
+/* Set a soothing background color */
+body {
+    background-color: #f5f7fa;
+}
+
+/* Style the title */
+.stApp h1 {
+    color: #4B0082;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Style the subheading */
+.stApp h2 {
+    color: #5f5f9b;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 400;
+}
+
+/* Style the text input box */
+input[type="text"] {
+    border: 2px solid #8A2BE2;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 18px;
+    color: #333;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Style the chat history text */
+.stText {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e5ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #4B0082;
+    font-size: 16px;
+}
+
+/* Style the dropdown box */
+.stSelectbox {
+    background-color: #9370DB;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Style the submit button */
+.stButton button {
+    background-color: #4B0082;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.stButton button:hover {
+    background-color: #5f5f9b;
+}
+
+/* Style the clear history button */
+.stButton.clear-history {
+    background-color: #E74C3C;
+}
+
+.stButton.clear-history:hover {
+    background-color: #C0392B;
+}
+
+/* Style the bot and user messages differently */
+.stApp .user-message {
+    text-align: left;
+    background-color: #D6D6F5;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Verdana', sans-serif;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.stApp .bot-message {
+    text-align: left;
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Verdana', sans-serif;
+    margin-bottom: 5px;
+    color: #4B0082;
+}
